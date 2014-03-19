@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function(){
 	if($('.annotation').length == 0)
 	{
 		$(".meta-info-button").hide();
