@@ -1,17 +1,19 @@
 $( document ).ready(function() {
 	if($('.annotation').length == 0)
 	{
+		$("body").append('<div class="meta-info-button"><a href="#meta"><img src="/images/simpleannotate-open.svg"></a></div>');
+
 		$(".meta-info-button").hide();
 	} else {
 		$(".meta-info-button a").click(function(){
 
 			if($(this).hasClass('show-annotations')){
 				$(this).removeClass('show-annotations');
-				$(this).find('img').attr('src','/images/annotate-open.svg');
+				$(this).find('img').attr('src','/images/simpleannotate-open.svg');
 				$(".annotation").hide();
 			} else {
 				$(this).addClass('show-annotations');
-				$(this).find('img').attr('src','/images/annotate-close.svg');
+				$(this).find('img').attr('src','/images/simpleannotate-close.svg');
 				$(".annotation").show();
 			}
 
