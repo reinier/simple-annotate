@@ -1,9 +1,9 @@
 # Simple Annotate
 
-A simple way to annotate interactive prototypes.
+A simple way to annotate interactive prototypes. *Work in progress.*
 
 ## Install with [Bower](http://bower.io)
 `bower install simple-annotate --save`
 
 ## Use in your prototype
-Just include the JS and CSS (make sure the paths to the images are correct) and create a .annotation div with annotation in it.
+Just include the JS and CSS (make sure the paths to the images are correct) and create a div with the class `annotation` with annotations in it. An example of this can be seen in [wireframework.com](http://www.wireframework.com) (click the question mark at the bottom left).
